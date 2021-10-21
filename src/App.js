@@ -1,10 +1,15 @@
+import Header from "./componets/Header";
+import Footer from "./componets/Footer";
+import Shop from "./componets/Shop";
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>Fortnite</h1>
-    </div>
+      <>
+        <Header/>
+        <Shop/>
+        <Footer/>
+      </>
   );
 }
 
