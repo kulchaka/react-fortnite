@@ -8,7 +8,7 @@ const GoodList = ({goods} = []) => {
   return (
      <div className='goods'>
        {goods.map(item => (
-           <GoodsItem key={goods.mainId} {...item}/>
+           <GoodsItem key={item.mainId} {...item}/>
        ))}
      </div>
   );

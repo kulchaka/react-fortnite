@@ -1,10 +1,7 @@
 import React from 'react';
 
 const GoodsItem = ({mainId, displayName, displayDescription, displayAssets, price}) => {
-
-  console.log(displayAssets[0].full_background)
-
-  return (
+    return (
       <div className="card">
         <div className="card-image">
           <img src={displayAssets[0].full_background} alt={displayName}/>
